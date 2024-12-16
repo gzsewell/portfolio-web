@@ -99,3 +99,19 @@ hr {
   margin-top: 0px;
   min-height: auto;
 }
+.about-section-container {
+  display: flex;
+  flex-direction: column;
+}
+.about-main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 10px;
+  background-color: azure;
+  padding: 0 60px 45px;
+  border: 3px solid gray;
+  margin-bottom: 20px;
+}
