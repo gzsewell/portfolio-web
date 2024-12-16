@@ -115,3 +115,23 @@ hr {
   border: 3px solid gray;
   margin-bottom: 20px;
 }
+
+/* Start of Contact Me Page Style*/
+
+.contact-section-content {
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 10px;
+  background-color: azure;
+  padding: 0 60px 45px;
+}
+.contact-section-content p {
+  margin: 10px;
+  line-height: 1.4;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+.contact-main-container section {
+  border: 3px solid gray;
+  margin-bottom: 20px;
+}
