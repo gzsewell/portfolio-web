@@ -7,7 +7,7 @@
 header {
   position: sticky;
   top: 0;
-  box-shadow: 0px 2px gray;
+  box-shadow: 0 0 12px -2px black;
 }
 .persistent-header {
   background-color: azure;
@@ -44,6 +44,8 @@ h3 {
   margin-top: 10px;
   background-color: azure;
   padding: 0 60px 45px;
+  min-height: 100vh;
+  box-shadow: 0 0 12px -2px black;
 }
 
 .main-container section {
@@ -138,4 +140,19 @@ hr {
 .contact-main-container section {
   border: 3px solid gray;
   margin-bottom: 20px;
+}
+footer {
+  position: sticky;
+  top: 0;
+  box-shadow: 0 0 12px -2px black;
+  background-color: azure;
+  color: lightcoral;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
 }
