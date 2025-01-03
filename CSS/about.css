@@ -7,6 +7,7 @@
 .about-section-container {
   display: flex;
   flex-direction: column;
+  border: 3px solid gray;
   /* align-items: center; */
 }
 .about-main-container {
@@ -15,22 +16,21 @@
   /* align-items: center; */
   width: 75%;
   margin: 0 auto;
-  margin-top: 10px;
   background-color: azure;
   /* padding: 0 60px 45px; */
   padding: 85px 24px 96px;
-  border: 3px solid gray;
-  margin-bottom: 20px;
   min-height: 100vh;
   box-shadow: 0 0 12px -2px black;
 }
 .about-main-container p {
-  border: 3px solid gray;
+  /* border: 3px solid gray; */
   margin-bottom: 20px;
 }
 .about-pic {
   padding-top: 125px;
+  padding-left: 50px;
 }
+
 footer {
   position: fixed;
   height: 70px;
